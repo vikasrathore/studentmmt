@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="56dp"
+            android:text="Name"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter Student's Name"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textRollno"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="56dp"
+            android:text="Roll No."
+
+            />
+
+        <EditText
+            android:id="@+id/edit_rollno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter Roll no"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textClass"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Class"
+
+
+            />
+
+        <EditText
+            android:id="@+id/edit_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter class"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textFatherName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="56dp"
+            android:text="Father's Name"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_fathername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter father's name"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textMotherName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="56dp"
+            android:text="Mother's name"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_mothername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter mother's name"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textphoneno"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="56dp"
+            android:text="Phone no"
+
+            />
+
+        <EditText
+            android:id="@+id/edit_phoneno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter phone no"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+
+</LinearLayout>
